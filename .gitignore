@@ -1,0 +1,46 @@
+# --- Pentaho / Kettle Specifics ---
+*.log
+*.pkt
+kettle.properties
+repositories.xml
+shared.xml
+
+# --- Data Files --
+*.csv
+*.txt
+*.xls
+*.xlsx
+*.mdb
+*.pdf
+
+# --- Java / IDE Junk --
+*.class
+*.jar
+*.war
+*.ear
+.classpath
+.project
+.settings/
+target/
+build/
+bin/
+
+# --- OS Junk ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*~
+*.swp
+
+# --- Credentials / Security ---
+secrets.json
+db.config
